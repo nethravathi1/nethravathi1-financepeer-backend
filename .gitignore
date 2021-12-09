@@ -121,3 +121,5 @@ dist
 pnpm-debug.log
 
 .theia
+
+.results
