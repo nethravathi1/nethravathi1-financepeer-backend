@@ -117,7 +117,7 @@ app.get("/customer/", authenticateToken, (request, response) => {
             FROM
             Customer
             ORDER BY
-            title;`;
+            user_id;`;
         const customerArray = await db.all(getcustomerQuery);
         response.send(booksArray);
       }
