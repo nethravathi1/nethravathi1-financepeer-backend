@@ -1,0 +1,30 @@
+GET http://localhost:3000/customer/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1vc2giLCJpYXQiOjE2MzkwMTgxODN9.1vZaPb2pZf3RX65QRJX9UCAvC7fggTFx6I5cXYMJr5A
+ 
+###
+
+
+POST http://localhost:3000/customer/
+Content-Type: application/json
+
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{    
+    "username": "mosh",
+    "password": "DevMosh22",
+    "gender":"male",
+    "location":"hyderabad"
+}
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{    
+    "username": "mosh",
+    "password": "DevMosh22"
+}
